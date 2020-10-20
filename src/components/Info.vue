@@ -1,10 +1,12 @@
 <template>
-  <div class="info ml-8 my-2 sm:w-1/2 md:w-auto md:h-2/3 place-self-center sm:place-self-center md:place-self-auto">
+  <div
+    class="info my-6 md:ml-8 p-6 md:p-4 sm:w-1/2 md:w-full xl:h-4/12 lg:h-1/2 md:h-2/5 h-auto place-self-center sm:place-self-center md:place-self-auto"
+  >
     <p class="md:text-xl leading-none">Vida toda</p>
-    <span class="md:text-6xl leading-none font-bold">BEM ESTAR</span>
+    <span class="text-6xl leading-none font-black break-words">BEM ESTAR</span>
     <p class="md:text-xl mt-10">Soluções completas para viver mais e melhor</p>
-    <div class="text-center mt-8 md:mt-16">
-      <button class="md:btn btn-yellow  p-4 self-center">
+    <div class="text-center mt-8 xl:mt-6 md:mt-12">
+      <button class="btn btn-yellow p-4 self-center">
         Quero uma consultoria
       </button>
     </div>
@@ -22,7 +24,11 @@ export default {
 
 <style scoped>
 .info {
-  @apply border-4 border-blue-700 text-blue-700 p-6;
+  @apply border-4 border-blue-900 text-blue-900 bg-white opacity-75;
+}
+
+.info:hover {
+  @apply opacity-100;
 }
 
 .btn {
@@ -31,7 +37,7 @@ export default {
 .btn-yellow {
   @apply bg-yellow-500 text-white;
 }
-.btn-blue:hover {
-  @apply bg-blue-700;
+.btn-yellow:hover {
+  @apply bg-yellow-700;
 }
 </style>
