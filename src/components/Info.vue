@@ -1,6 +1,6 @@
 <template>
   <div
-    class="info my-6 md:ml-8 p-6 md:p-4 sm:w-1/2 md:w-full xl:h-4/12 lg:h-1/2 md:h-2/5 h-auto place-self-center sm:place-self-center md:place-self-auto"
+    class="info xl:my-40 my-6 md:ml-8 p-6 md:p-4 sm:w-1/2 md:w-full xl:h-4/12 lg:h-1/2 md:h-2/5 h-auto place-self-center sm:place-self-center md:place-self-auto"
   >
     <p class="md:text-xl leading-none">Vida toda</p>
     <span class="text-6xl leading-none font-black break-words">BEM ESTAR</span>
