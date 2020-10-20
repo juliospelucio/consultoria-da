@@ -9,6 +9,7 @@
     "build-css": "npx tailwindcss build src/style.css -o public/output.css"
   },
   "dependencies": {
+    "axios": "^0.20.0",
     "core-js": "^3.6.5",
     "tailwindcss": "^1.9.4",
     "vue": "^2.6.11"

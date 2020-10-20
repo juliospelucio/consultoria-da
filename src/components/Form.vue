@@ -1,5 +1,7 @@
 <template>
-  <div class="form md:mt-64 md:w-full w-2/3 place-self-center sm:place-self-center md:place-self-auto">
+  <div
+    class="form md:mt-40 place-self-center sm:place-self-center md:place-self-auto"
+  >
     <span class="md:text-2xl leading-none font-bold text-orange-500"
       >Pronto para planejar seu sossego?
     </span>
@@ -7,7 +9,7 @@
       Agende uma consultoria sem compromisso pelo formulário abaixo!
     </p>
     <form>
-      <div class="mb-2">
+      <div class="">
         <label class="block font-bold" for="name">Nome: </label>
         <input
           class="shadow appearance-none border w-full py-2 px-3 text-green-800 leading-tight focus:outline-none focus:shadow-outline"
@@ -15,7 +17,7 @@
           type="text"
         />
       </div>
-      <div class="mb-2">
+      <div class="">
         <label class="block font-bold" for="mail">E-mail: </label>
         <input
           class="shadow appearance-none border w-full py-2 px-3 text-green-800 leading-tight focus:outline-none focus:shadow-outline"
@@ -24,7 +26,7 @@
         />
       </div>
       <label class="block font-bold" for="profession">Estado Civil: </label>
-      <div class="relative mb-2">
+      <div class="relative">
         <select
           class="shadow appearance-none border w-full py-2 px-3 text-green-800 leading-tight focus:outline-none focus:shadow-outline"
           id="grid-state"
@@ -47,7 +49,7 @@
           </svg>
         </div>
       </div>
-      <div class="mb-2">
+      <div class="">
         <label class="block font-bold" for="profession">Profissão: </label>
         <input
           class="shadow appearance-none border w-full py-2 px-3 text-green-800 leading-tight focus:outline-none focus:shadow-outline"
@@ -55,7 +57,7 @@
           type="text"
         />
       </div>
-      <div class="mb-2">
+      <div class="">
         <label class="block font-bold" for="phone">Telefone/Whatsapp: </label>
         <input
           class="shadow appearance-none border w-full py-2 px-3 text-green-800 leading-tight focus:outline-none focus:shadow-outline"
@@ -63,7 +65,7 @@
           type="text"
         />
       </div>
-      <div class="mb-2">
+      <div class="">
         <label class="block font-bold" for="income">Renda Mensal: </label>
         <input
           class="shadow appearance-none border w-full py-2 px-3 text-green-800 leading-tight focus:outline-none focus:shadow-outline"
