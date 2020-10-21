@@ -1,7 +1,9 @@
 {
   "name": "consultoria-da",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+   "repository": "git@github.com:juliospelucio/consultoria-da.git",
+  "author": "Júlio Pelúcio <juliopeluciofox@hotmail.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
